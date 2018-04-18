@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" tests="24" skipped="1" failures="0" errors="0" timestamp="2017-11-06T18:59:00" hostname="gutpunch" time="0.083">
+  <properties/>
+  <testcase name="testMacroFMeasure" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.003"/>
+  <testcase name="testProbabilisticThreeAnnotators" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.007"/>
+  <testcase name="testAdd" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.004"/>
+  <testcase name="testBug" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.017"/>
+  <testcase name="testOther" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.005"/>
+  <testcase name="testMicroFMeasure" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.001"/>
+  <testcase name="testPrecision" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.0"/>
+  <testcase name="testParseFromText" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.011"/>
+  <testcase name="testSomething" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConfidence" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.0"/>
+  <testcase name="testCohensKappa" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.002"/>
+  <testcase name="testNegativeUnitMatrix" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.0"/>
+  <testcase name="testSymmetricConfusionMatrixA1A2" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.002"/>
+  <testcase name="testSymmetricConfusionMatrixA1A3" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.003"/>
+  <testcase name="testGetColSum" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.001"/>
+  <testcase name="testConfidenceInterval" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.002"/>
+  <testcase name="testProbabilityConfusionMatrixCinkovaEtAl2012" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.005"/>
+  <testcase name="testToStringProbabilistic" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.001"/>
+  <testcase name="testApplesToApples" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.01"/>
+  <testcase name="testGetRowSum" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.0"/>
+  <testcase name="testTransposedMatrix" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.001"/>
+  <testcase name="testMatrix" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.001"/>
+  <testcase name="testRecall" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.0"/>
+  <testcase name="testMoreExpectedLabelsThanGold" classname="com.davis.utilities.result.compare.confusion.ConfusionMatrixTest" time="0.001"/>
+  <system-out><![CDATA[ ↓gold\pred→         neg         neu         pos
+         neg          25           5           2
+         neu           3          32           4
+         pos           1           0          15
+
+0.8241960683720823
+ ↓gold\pred→       after      before        thus
+       after           2           1           0
+      before           0           0           1
+
+ ↓gold\pred→       after      before        thus
+       after           6           2           0
+      before           0           0           2
+        thus           1           0           0
+
+ ↓gold\pred→       after      before        thus
+       after           3           0           0
+      before           0           0           1
+        thus           0           2           0
+
+Cumulative matrix
+ ↓gold\pred→       after      before        thus
+       after          11           3           0
+      before           0           0           4
+        thus           1           2           0
+
+Probabilistic
+ ↓gold\pred→       after      before        thus
+       after       0.786       0.214       0.000
+      before       0.000       0.000       1.000
+        thus       0.333       0.667       0.000
+
+ ↓gold\pred→         neg         neu         pos
+         neg          25           5           2
+         neu           3          32           4
+         pos           1           0          15
+
+ ↓gold\pred→         neg         neu         pos
+         neg          25           5           2
+         neu           3          32           4
+         pos           1           0          15
+
+ ↓gold\pred→         neg         neu         pos
+         neg          25           5           2
+         neu           3          32           4
+         pos           1           0          15
+
+ ↓gold\pred→         neg         neu         pos
+         neg          50          10           4
+         neu           6          64           8
+         pos           2           0          30
+
+      ↓gold\pred→               ""        "bec_aft" "in_other_words"   "specifically"         "though"           "thus"         "before"
+               ""                9                5                0                5                1                2                1
+        "bec_aft"                1                7                0                0                0                1                1
+ "in_other_words"                0                1                1                0                0                0                0
+   "specifically"                0                0                0                1                0                0                0
+         "though"                0                0                0                0                0                0                1
+           "thus"                0                2                0                0                0                1                0
+
+      ↓gold\pred→               ""        "bec_aft" "in_other_words"   "specifically"         "though"           "thus"         "before"
+               ""               15                2                3                0                0                3                0
+        "bec_aft"                2                5                0                0                0                2                1
+ "in_other_words"                0                0                0                1                0                1                0
+   "specifically"                0                0                0                1                0                0                0
+         "though"                1                0                0                0                0                0                0
+           "thus"                0                1                0                0                0                2                0
+
+      ↓gold\pred→               ""        "bec_aft"         "before" "in_other_words"   "specifically"         "though"           "thus"
+               ""                9                0                0                1                0                0                0
+        "bec_aft"                4                7                0                0                1                0                3
+         "before"                2                0                1                0                0                0                0
+ "in_other_words"                0                0                0                0                0                0                1
+   "specifically"                2                1                0                1                1                0                1
+         "though"                0                0                0                1                0                0                0
+           "thus"                1                0                0                0                0                0                3
+
+      ↓gold\pred→               ""        "bec_aft"         "before" "in_other_words"   "specifically"         "though"           "thus"
+               ""               33               14                3                4                7                2                6
+        "bec_aft"               14               19                2                1                2                0                9
+         "before"                3                2                1                0                0                1                0
+ "in_other_words"                4                1                0                1                2                1                2
+   "specifically"                7                2                0                2                3                0                1
+         "though"                2                0                1                1                0                0                0
+           "thus"                6                9                0                2                1                0                6
+
+      ↓gold\pred→               ""        "bec_aft"         "before" "in_other_words"   "specifically"         "though"           "thus"
+               ""            0.478            0.203            0.043            0.058            0.101            0.029            0.087
+        "bec_aft"            0.298            0.404            0.043            0.021            0.043            0.000            0.191
+         "before"            0.429            0.286            0.143            0.000            0.000            0.143            0.000
+ "in_other_words"            0.364            0.091            0.000            0.091            0.182            0.091            0.182
+   "specifically"            0.467            0.133            0.000            0.133            0.200            0.000            0.067
+         "though"            0.500            0.000            0.250            0.250            0.000            0.000            0.000
+           "thus"            0.250            0.375            0.000            0.083            0.042            0.000            0.250
+
+ ↓gold\pred→        corr    non-corr
+        corr           0         128
+    non-corr           0         529
+
+P/R/Fm: corr=0.000/0.000/0.000 non-corr=0.805/1.000/0.892 
+Macro F-measure: 0.446, (CI at .95: 0.038), micro F-measure (acc): 0.805
+Rand. forest
+ ↓gold\pred→        corr    non-corr
+        corr          77          51
+    non-corr          41         488
+
+P/R/Fm: corr=0.653/0.602/0.626 non-corr=0.905/0.922/0.914 
+Macro F-measure: 0.770, (CI at .95: 0.032), micro F-measure (acc): 0.860
+0.8275862068965517
+ ↓gold\pred→         NEG         NEU         POS
+         NEG          25           5           2
+         NEU           3          32           4
+         POS           1           0          15
+
+0.0021420401103470653
+Macro F-measure: 0.78833, (CI at .95: 0.00265), micro F-measure (acc): 0.78847
+0.0026485729640145757
+ ↓gold\pred→         NEG         POS
+         NEG       11157        1343
+         POS        1292       11208
+
+0.0032238411413120453
+0.0038064630343202462
+0.07937597449991854
+ ↓gold\pred→   excellent        fair        good        poor
+   excellent          22           8          36           1
+        fair           7          35          43           9
+        good          40          36         103           4
+        poor           0          12           8           2
+
+0.1283374388549681
+ ↓gold\pred→           1         1.a           2           4           5
+           1          29           1           1           0           0
+         1.a           0           1           0           0           0
+           2           0           1          11           0           0
+           4           0           0           0           2           0
+           5           0           0           0           3           1
+
+ ↓gold\pred→           1         1.a           2           4           5
+           1          29           2           0           0           0
+         1.a           1           0           0           0           0
+           2           0           0          12           0           0
+           4           0           0           0           1           1
+           5           0           0           0           0           4
+
+ ↓gold\pred→           1         1.a           2           4           5
+           1          29           3           0           0           0
+         1.a           3           0           0           0           0
+           2           0           0          12           0           0
+           4           0           0           0           1           1
+           5           0           0           0           1           4
+
+ ↓gold\pred→           A           B           C           D
+           A          35          14          11           1
+           B           4          11           3           0
+           C          12           9          38           4
+           D           2           5          12           2
+
+Gold data distribution		Predicted data distribution
+A	61	37.4%	53	32.5%
+B	18	11.0%	39	23.9%
+C	63	38.7%	64	39.3%
+D	21	12.9%	7	4.3%
+Sum	163
+ ↓gold\pred→         neg         neu         pos
+         neg       0.781       0.156       0.063
+         neu       0.077       0.821       0.103
+         pos       0.063       0.000       0.938
+
+------
+Fold 1 confusion matrix
+ ↓gold\pred→         neg         pos
+         neg         373           0
+         pos           0           3
+
+Precision (pos): 1.0
+Recall (pos): 1.0
+F-measure (pos): 1.0
+------
+Fold 2 confusion matrix
+ ↓gold\pred→         neg         pos
+         neg         372           1
+         pos           0           4
+
+Precision (pos): 0.8
+Recall (pos): 1.0
+F-measure (pos): 0.888888888888889
+------
+Fold 3 confusion matrix
+ ↓gold\pred→         neg         pos
+         neg         372          13
+         pos           0           4
+
+Precision (pos): 0.23529411764705882
+Recall (pos): 1.0
+F-measure (pos): 0.38095238095238093
+------
+Fold 4 confusion matrix
+ ↓gold\pred→         neg         pos
+         neg         372           5
+         pos           1           3
+
+Precision (pos): 0.375
+Recall (pos): 0.75
+F-measure (pos): 0.5
+F_avg: 0.6924603174603174
+Average precision: 0.6025735294117647
+Average recall: 0.9375
+F_pr,re: 0.7336178085461924
+------
+Combined confusion matrix
+ ↓gold\pred→         neg         pos
+         neg        1489          19
+         pos           1          14
+
+Precision (pos): 0.42424242424242425
+Recall (pos): 0.9333333333333333
+F-measure (pos) F_tp,fp: 0.5833333333333333
+ ↓gold\pred→           1         1.a           2           4           5
+           1          29           1           1           0           0
+         1.a           0           1           0           0           0
+           2           0           1          11           0           0
+           4           0           0           0           2           0
+           5           0           0           0           3           1
+
+ ↓gold\pred→         yes          no
+         yes           1           1
+
+ ↓gold\pred→           1           2           3
+           1           1           1           0
+           2           0           1           1
+
+P/R/Fm: 1=1.000/0.500/0.667 2=0.500/0.500/0.500 
+{1=1.0, 2=0.5}
+{1=0.5, 2=0.5}
+Macro F-measure: 0.583, (CI at .95: 0.483), micro F-measure (acc): 0.571
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

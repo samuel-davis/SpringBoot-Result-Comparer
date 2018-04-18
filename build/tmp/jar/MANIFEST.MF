@@ -1,0 +1,177 @@
+Manifest-Version: 1.0
+Class-Path: file:/home/sam/.gradle/caches/modules-2/files-2.1/org.spri
+ ngframework.boot/spring-boot-starter-web/1.5.8.RELEASE/7e0dc79e3b47be
+ 4539ad3c033639133ae6b7a17e/spring-boot-starter-web-1.5.8.RELEASE.jar 
+ file:/home/sam/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1
+ .4.196/dd0034398d593aa3588c6773faac429bbd9aea0e/h2-1.4.196.jar file:/
+ home/sam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/
+ spring-boot-starter-data-jpa/1.5.8.RELEASE/55bb5e8aea5707f79ee9888ad7
+ 5261a7b7df4654/spring-boot-starter-data-jpa-1.5.8.RELEASE.jar file:/h
+ ome/sam/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.
+ 1/b2dfeed54ac106bcd714ba59c1f52ef9167d56e/jaxb-api-2.1.jar file:/home
+ /sam/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entit
+ ymanager/5.0.12.Final/302a526f5058290e9cbd719a5caf9f248d344719/hibern
+ ate-entitymanager-5.0.12.Final.jar file:/home/sam/.gradle/caches/modu
+ les-2/files-2.1/org.hibernate/hibernate-core/5.0.12.Final/e58bf1c660e
+ 6706d8e2cbb53bae110f574366102/hibernate-core-5.0.12.Final.jar file:/h
+ ome/sam/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.tr
+ ansaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.tran
+ saction-api-1.2.jar file:/home/sam/.gradle/caches/modules-2/files-2.1
+ /com.github.jai-imageio/jai-imageio-core/1.3.0/268feccd3a0fe32058ede6
+ 6db41a21d9c7a9e535/jai-imageio-core-1.3.0.jar file:/home/sam/.gradle/
+ caches/modules-2/files-2.1/org.apache.poi/poi/3.11-beta2/5b89faba0fd8
+ 79a6a7eca16e81a47a2fd008738a/poi-3.11-beta2.jar file:/home/sam/.gradl
+ e/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.11-beta2/6ea3
+ 924178a334b5298aede99bca3feaae8765bf/poi-ooxml-3.11-beta2.jar file:/h
+ ome/sam/.gradle/caches/modules-2/files-2.1/net.sourceforge.javacsv/ja
+ vacsv/2.0/8092b1ba2d4929f2ec27e58cd240502afdd6a9a7/javacsv-2.0.jar fi
+ le:/home/sam/.gradle/caches/modules-2/files-2.1/commons-io/commons-io
+ /2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar file
+ :/home/sam/.gradle/caches/modules-2/files-2.1/org.apache.commons/comm
+ ons-lang3/3.6/9d28a6b23650e8a7e9063c04588ace6cf7012c17/commons-lang3-
+ 3.6.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.zerotur
+ naround/zt-exec/1.9/a6c5747098b1ede9f4a6e9c36eaebb357a4430ed/zt-exec-
+ 1.9.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.slf4j/s
+ lf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.
+ 7.13.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.slf4j/
+ slf4j-simple/1.7.13/8f0d8b5bf0ff295162360a0a5ebb9c945bd2b685/slf4j-si
+ mple-1.7.13.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/ali
+ ceinnets/java-jyplot/1.0.3/251b801639e8cf0037b35c70d9f642b793b233b1/j
+ ava-jyplot-1.0.3.jar file:/home/sam/.gradle/caches/modules-2/files-2.
+ 1/com.squareup.okhttp3/okhttp/3.8.1/4d060ca3190df0eda4dc13415532a12e1
+ 5ca5f11/okhttp-3.8.1.jar file:/home/sam/.gradle/caches/modules-2/file
+ s-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cb
+ dc941da0/gson-2.8.1.jar file:/home/sam/.gradle/caches/modules-2/files
+ -2.1/org.jsoup/jsoup/1.8.3/65fd012581ded67bc20945d85c32b4598c3a9cf1/j
+ soup-1.8.3.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.
+ springframework.boot/spring-boot-starter/1.5.8.RELEASE/18048efe1f0656
+ 9022a53cc3fb2fe9c0162935a3/spring-boot-starter-1.5.8.RELEASE.jar file
+ :/home/sam/.gradle/caches/modules-2/files-2.1/org.springframework.boo
+ t/spring-boot-starter-tomcat/1.5.8.RELEASE/cf3b7eb7e192a60ab1dd09e4f8
+ bce82710a5feb0/spring-boot-starter-tomcat-1.5.8.RELEASE.jar file:/hom
+ e/sam/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-vali
+ dator/5.3.5.Final/622a9bcef2eed6d41b5b8e0662c36212009e375/hibernate-v
+ alidator-5.3.5.Final.jar file:/home/sam/.gradle/caches/modules-2/file
+ s-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.10/f7b83cb2bc4b
+ 88d53961e749e1ad32f49ef017b7/jackson-databind-2.8.10.jar file:/home/s
+ am/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/
+ 4.3.12.RELEASE/86c29588cca74d0fc848b194cb13fcdfd12bc990/spring-web-4.
+ 3.12.RELEASE.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/or
+ g.springframework/spring-webmvc/4.3.12.RELEASE/986e5dcd4435e780f6be64
+ f8185eaa51523cf851/spring-webmvc-4.3.12.RELEASE.jar file:/home/sam/.g
+ radle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot
+ -starter-aop/1.5.8.RELEASE/9bc9a40e0718726ed48f6becc509b2d186f1ebcc/s
+ pring-boot-starter-aop-1.5.8.RELEASE.jar file:/home/sam/.gradle/cache
+ s/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jd
+ bc/1.5.8.RELEASE/fc98631eba9817c920b9ac1c5845214f49637a33/spring-boot
+ -starter-jdbc-1.5.8.RELEASE.jar file:/home/sam/.gradle/caches/modules
+ -2/files-2.1/org.springframework.data/spring-data-jpa/1.11.8.RELEASE/
+ d674b8407de3d2998c106557fd6a6665de2bc217/spring-data-jpa-1.11.8.RELEA
+ SE.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.springfr
+ amework/spring-aspects/4.3.12.RELEASE/b0002bfdd0d58f09fc178afc5f2d055
+ 3ff117840/spring-aspects-4.3.12.RELEASE.jar file:/home/sam/.gradle/ca
+ ches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/d6337b0de8b2
+ 5e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar file:/home/sam/.gradl
+ e/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb5414
+ 61c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar file:/home/sam/.g
+ radle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.
+ 1.Final/c46217ab74b532568c0ed31dc599db3048bd1b67/jboss-logging-3.3.1.
+ Final.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/dom4j/dom
+ 4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar fil
+ e:/home/sam/.gradle/caches/modules-2/files-2.1/org.hibernate.common/h
+ ibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3d
+ db24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar file:/home
+ /sam/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persisten
+ ce/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8
+ bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar file:/home/sam/.gradle
+ /caches/modules-2/files-2.1/org.javassist/javassist/3.21.0-GA/598244f
+ 595db5c5fb713731eddbb1c91a58d959b/javassist-3.21.0-GA.jar file:/home/
+ sam/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/gero
+ nimo-jta_1.1_spec/1.1.1/aabab3165b8ea936b9360abbf448459c0d04a5a4/gero
+ nimo-jta_1.1_spec-1.1.1.jar file:/home/sam/.gradle/caches/modules-2/f
+ iles-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/a
+ ntlr-2.7.7.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.
+ jboss/jandex/2.0.0.Final/3e899258936f94649c777193e1be846387ed54b3/jan
+ dex-2.0.0.Final.jar file:/home/sam/.gradle/caches/modules-2/files-2.1
+ /commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c52
+ 95cd8/commons-codec-1.10.jar file:/home/sam/.gradle/caches/modules-2/
+ files-2.1/org.apache.poi/poi-ooxml-schemas/3.11-beta2/76e88385937608e
+ f805a040b35185220e5d95ea1/poi-ooxml-schemas-3.11-beta2.jar file:/home
+ /sam/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0
+ /a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar file:/home/
+ sam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/sprin
+ g-boot/1.5.8.RELEASE/748ebde51761e12627ad23d064024f342b18f9b4/spring-
+ boot-1.5.8.RELEASE.jar file:/home/sam/.gradle/caches/modules-2/files-
+ 2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.8.RELEASE/
+ e4f2efa4c319f4e3613d94fbccfdb5ccda6873e3/spring-boot-autoconfigure-1.
+ 5.8.RELEASE.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org
+ .springframework.boot/spring-boot-starter-logging/1.5.8.RELEASE/ebc00
+ a0e46753d90431fdcc5e3d6b9fd3bf1564a/spring-boot-starter-logging-1.5.8
+ .RELEASE.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.sp
+ ringframework/spring-core/4.3.12.RELEASE/4cebc69478c6d350dbd5af28e3db
+ 7d5694f416e3/spring-core-4.3.12.RELEASE.jar file:/home/sam/.gradle/ca
+ ches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b
+ 86dea63cbb1cc10a660c/snakeyaml-1.17.jar file:/home/sam/.gradle/caches
+ /modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23
+ /79261793a47f507890ee08f749b9d81774e4f7f0/tomcat-embed-core-8.5.23.ja
+ r file:/home/sam/.gradle/caches/modules-2/files-2.1/org.apache.tomcat
+ .embed/tomcat-embed-el/8.5.23/98d979cde444dffa6d434c8377d0123b2dfa614
+ c/tomcat-embed-el-8.5.23.jar file:/home/sam/.gradle/caches/modules-2/
+ files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.23/52f07
+ abcae10dc7e1764304b0877def175c2c833/tomcat-embed-websocket-8.5.23.jar
+  file:/home/sam/.gradle/caches/modules-2/files-2.1/javax.validation/v
+ alidation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/va
+ lidation-api-1.1.0.Final.jar file:/home/sam/.gradle/caches/modules-2/
+ files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583
+ be2e0053c6/classmate-1.3.4.jar file:/home/sam/.gradle/caches/modules-
+ 2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b4
+ 26f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar fi
+ le:/home/sam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson
+ .core/jackson-core/2.8.10/eb21a035c66ad307e66ec8fce37f5d50fd62d039/ja
+ ckson-core-2.8.10.jar file:/home/sam/.gradle/caches/modules-2/files-2
+ .1/org.springframework/spring-aop/4.3.12.RELEASE/b3fef085902993c2ef87
+ 4c45c7bfd79296d5a5a4/spring-aop-4.3.12.RELEASE.jar file:/home/sam/.gr
+ adle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.
+ 12.RELEASE/547dd432d47d0f01d9ccbedc4b705f9f7c1240a/spring-beans-4.3.1
+ 2.RELEASE.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.s
+ pringframework/spring-context/4.3.12.RELEASE/5e6d26f36636f36b7efec1d6
+ a0c5991284fbd95b/spring-context-4.3.12.RELEASE.jar file:/home/sam/.gr
+ adle/caches/modules-2/files-2.1/org.springframework/spring-expression
+ /4.3.12.RELEASE/790f69f6ad7f9da8d4a92c603ad7244c398c8309/spring-expre
+ ssion-4.3.12.RELEASE.jar file:/home/sam/.gradle/caches/modules-2/file
+ s-2.1/org.aspectj/aspectjweaver/1.8.11/9807e0e13c8a295f15882721db50fa
+ 3d142c44a9/aspectjweaver-1.8.11.jar file:/home/sam/.gradle/caches/mod
+ ules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.23/6036400a8f2d90d
+ d3ae3a4d09e5136c56002887b/tomcat-jdbc-8.5.23.jar file:/home/sam/.grad
+ le/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.12.
+ RELEASE/5c840abbdc1a1dfd0f79c4a4c25eac0c98e6af22/spring-jdbc-4.3.12.R
+ ELEASE.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.spri
+ ngframework.data/spring-data-commons/1.13.8.RELEASE/2853e3c38e02d4252
+ 9f6c8b247d7bace40c25642/spring-data-commons-1.13.8.RELEASE.jar file:/
+ home/sam/.gradle/caches/modules-2/files-2.1/org.springframework/sprin
+ g-orm/4.3.12.RELEASE/47bbe35a92944aeedf06a388098581272f8db9bd/spring-
+ orm-4.3.12.RELEASE.jar file:/home/sam/.gradle/caches/modules-2/files-
+ 2.1/org.springframework/spring-tx/4.3.12.RELEASE/7147b6839b2bf9db3621
+ b79c73b4dddbe69572b6/spring-tx-4.3.12.RELEASE.jar file:/home/sam/.gra
+ dle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b
+ 13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar file:/ho
+ me/sam/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbean
+ s/2.6.0/29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87/xmlbeans-2.6.0.jar f
+ ile:/home/sam/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logba
+ ck-classic/1.1.11/ccedfbacef4a6515d2983e3f89ed753d5d4fb665/logback-cl
+ assic-1.1.11.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/or
+ g.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/j
+ ul-to-slf4j-1.7.25.jar file:/home/sam/.gradle/caches/modules-2/files-
+ 2.1/org.slf4j/log4j-over-slf4j/1.7.25/a87bb47468f47ee7aabbd54f93e133d
+ 4215769c3/log4j-over-slf4j-1.7.25.jar file:/home/sam/.gradle/caches/m
+ odules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/8.5.23/aa
+ f17df9fe0240e9e9d5375d24d5f177174b73d9/tomcat-annotations-api-8.5.23.
+ jar file:/home/sam/.gradle/caches/modules-2/files-2.1/org.apache.tomc
+ at/tomcat-juli/8.5.23/98e7f0610b7b2fb8303f11be0210e3f5a56a7d55/tomcat
+ -juli-8.5.23.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/st
+ ax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1
+ .0.1.jar file:/home/sam/.gradle/caches/modules-2/files-2.1/ch.qos.log
+ back/logback-core/1.1.11/88b8df40340eed549fb07e2613879bf6b006704d/log
+ back-core-1.1.11.jar
+Main-Class: com.davis.utilities.result.compare.CompareMain
+
